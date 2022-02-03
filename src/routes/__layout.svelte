@@ -1,5 +1,5 @@
 <script>
-	import '../styles/global.css';
+	import '../styles/app.css';
 	import Icon from '@iconify/svelte';
 </script>
 

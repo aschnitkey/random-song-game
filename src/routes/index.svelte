@@ -11,9 +11,13 @@
 </script>
 
 <div class="container">
-	<h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
+	<h1 class="logo text-3xl font-bold underline">Welcome to SvelteKit</h1>
 	<p>{band}</p>
 </div>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	h1.logo {
+		font-family: 'Bebas Neue', cursive;
+	}
 </style>
