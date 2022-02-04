@@ -1,0 +1,2266 @@
+export const musicData = [
+	{
+		Artist: '311',
+		Album: 'Grassroots'
+	},
+	{
+		Artist: '311',
+		Album: 'Music'
+	},
+	{
+		Artist: '311',
+		Album: '311'
+	},
+	{
+		Artist: '311',
+		Album: 'Soundsystem'
+	},
+	{
+		Artist: '311',
+		Album: 'Evolver'
+	},
+	{
+		Artist: '3 Doors Down',
+		Album: 'Away From The Sun'
+	},
+	{
+		Artist: '50 Cent',
+		Album: 'Get Rich Or Die Trying'
+	},
+	{
+		Artist: 'AFI',
+		Album: 'Answer That And Stay Fashionable'
+	},
+	{
+		Artist: 'AFI',
+		Album: 'Very Proud Of Ya'
+	},
+	{
+		Artist: 'AFI',
+		Album: 'Shut Your Mouth And Open Your Eyes'
+	},
+	{
+		Artist: 'AFI',
+		Album: 'Black Sails In The Sunset'
+	},
+	{
+		Artist: 'AFI',
+		Album: 'The Art Of Drowning'
+	},
+	{
+		Artist: 'AFI',
+		Album: 'Sing The Sorrow'
+	},
+	{
+		Artist: 'A Perfect Circle',
+		Album: 'Mer De Noms'
+	},
+	{
+		Artist: 'A Perfect Circle',
+		Album: 'Thirteenth Step'
+	},
+	{
+		Artist: 'Ace Troubleshooter',
+		Album: 'The Madness Of The Crowds'
+	},
+	{
+		Artist: 'Aerosmith',
+		Album: 'Greatest Hits'
+	},
+	{
+		Artist: 'Aerosmith',
+		Album: 'Permanent Vacation'
+	},
+	{
+		Artist: 'Aerosmith',
+		Album: 'Pump'
+	},
+	{
+		Artist: 'Aerosmith',
+		Album: 'A Little South Of Sanity'
+	},
+	{
+		Artist: 'Aerosmith',
+		Album: 'Just Push Play'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'Facelift'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'SAP'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'Dirt'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'Jar Of Flies'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'Alice In Chains'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'MTV Unplugged'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'Nothing Safe'
+	},
+	{
+		Artist: 'Alice In Chains',
+		Album: 'Live'
+	},
+	{
+		Artist: 'Alien Ant Farm',
+		Album: 'TruANT'
+	},
+	{
+		Artist: 'Alkaline Trio',
+		Album: 'Good Mourning'
+	},
+	{
+		Artist: 'All Star United',
+		Album: 'All Star United'
+	},
+	{
+		Artist: 'And You Will Know Us By The Trail Of Dead',
+		Album: 'Source Tags And Codes'
+	},
+	{
+		Artist: 'And You Will Know Us By The Trail Of Dead',
+		Album: 'The Secret Of Elanas Tomb'
+	},
+	{
+		Artist: 'Anti-Flag',
+		Album: 'The Terror State'
+	},
+	{
+		Artist: 'Appleseed Cast',
+		Album: 'The End Of The Ring Wars'
+	},
+	{
+		Artist: 'Appleseed Cast',
+		Album: 'Two Conversations'
+	},
+	{
+		Artist: 'Ash',
+		Album: 'Free All Angels'
+	},
+	{
+		Artist: 'At The Drive-In',
+		Album: 'in/Casino/Out'
+	},
+	{
+		Artist: 'At The Drive-In',
+		Album: 'Relationship Of Command'
+	},
+	{
+		Artist: 'Audio Adrenaline',
+		Album: 'Bloom'
+	},
+	{
+		Artist: 'Audio Adrenaline',
+		Album: 'Some Kind Of Zombie'
+	},
+	{
+		Artist: 'Audio Adrenaline',
+		Album: 'Underdog'
+	},
+	{
+		Artist: 'Audio Adrenaline',
+		Album: 'Lift'
+	},
+	{
+		Artist: 'Audioslave',
+		Album: 'Audioslave'
+	},
+	{
+		Artist: 'Audiovent',
+		Album: 'Dirty Sexy Nights In Paris'
+	},
+	{
+		Artist: 'Authority Zero',
+		Album: 'A Passage In Time'
+	},
+	{
+		Artist: 'Bad Religion',
+		Album: 'The Process Of Belief'
+	},
+	{
+		Artist: 'Beastie Boys',
+		Album: 'Paul’s Boutique'
+	},
+	{
+		Artist: 'Beastie Boys',
+		Album: 'Licensed To Ill'
+	},
+	{
+		Artist: 'Beck',
+		Album: 'Mellow Gold'
+	},
+	{
+		Artist: 'Beck',
+		Album: 'Sea Change'
+	},
+	{
+		Artist: 'Ben Folds Five',
+		Album: 'Whatever And Ever Amen'
+	},
+	{
+		Artist: 'Ben Harper',
+		Album: 'Fight For Your Mind'
+	},
+	{
+		Artist: 'Ben Harper',
+		Album: 'Diamonds On The Inside'
+	},
+	{
+		Artist: 'Big Tent Revival',
+		Album: 'Amplifier'
+	},
+	{
+		Artist: 'Big Wreck',
+		Album: 'In Loving Memory Of...'
+	},
+	{
+		Artist: 'Big Wreck',
+		Album: 'The Pleasure And The Greed'
+	},
+	{
+		Artist: 'Black Rebel Motorcycle Club',
+		Album: 'Take Them On Your Own'
+	},
+	{
+		Artist: 'Black Sabbath',
+		Album: 'We Sold Our Soul For Rock N’ Roll'
+	},
+	{
+		Artist: 'Black Sabbath',
+		Album: 'Reunion'
+	},
+	{
+		Artist: 'Bleach',
+		Album: 'Space'
+	},
+	{
+		Artist: 'Bleach',
+		Album: 'Static'
+	},
+	{
+		Artist: 'Bleach',
+		Album: 'Bleach'
+	},
+	{
+		Artist: 'Bleach',
+		Album: 'Again For The First Time'
+	},
+	{
+		Artist: 'Blind Melon',
+		Album: 'Blind Melon'
+	},
+	{
+		Artist: 'Blindside',
+		Album: 'Silence'
+	},
+	{
+		Artist: 'Blink 182',
+		Album: 'Enema Of The State'
+	},
+	{
+		Artist: 'Blink 182',
+		Album: 'Blink 182'
+	},
+	{
+		Artist: 'Blur',
+		Album: 'Think Tank'
+	},
+	{
+		Artist: 'Box Car Racer',
+		Album: 'Box Car Racer'
+	},
+	{
+		Artist: 'Brad',
+		Album: 'Shame'
+	},
+	{
+		Artist: 'Brad',
+		Album: 'Welcome To Discovery Park'
+	},
+	{
+		Artist: 'Bush',
+		Album: 'Razorblade Suitcase'
+	},
+	{
+		Artist: 'Bush',
+		Album: 'The Science Of Things'
+	},
+	{
+		Artist: 'Bush',
+		Album: 'Golden State'
+	},
+	{
+		Artist: 'Caedmon’s Call',
+		Album: '40 Acres'
+	},
+	{
+		Artist: 'Caesars',
+		Album: '39 Minutes Of Bliss'
+	},
+	{
+		Artist: 'Candlebox',
+		Album: 'Candlebox'
+	},
+	{
+		Artist: 'Candlebox',
+		Album: 'Lucy'
+	},
+	{
+		Artist: 'Candlebox',
+		Album: 'Happy Pills'
+	},
+	{
+		Artist: 'Chatterbox',
+		Album: 'Despite'
+	},
+	{
+		Artist: 'Chevelle',
+		Album: 'Point #1'
+	},
+	{
+		Artist: 'Chevelle',
+		Album: 'Wonder What’s Next'
+	},
+	{
+		Artist: 'Chris Cornell',
+		Album: 'Euphoria Morning'
+	},
+	{
+		Artist: 'Christina Aguilera',
+		Album: 'Stripped'
+	},
+	{
+		Artist: 'Coal Chamber',
+		Album: 'Coal Chamber'
+	},
+	{
+		Artist: 'Coal Chamber',
+		Album: 'Chamber Music'
+	},
+	{
+		Artist: 'Coal Chamber',
+		Album: 'Dark Days'
+	},
+	{
+		Artist: 'Coheed And Cambria',
+		Album: 'The Second Stage Turbine Blade'
+	},
+	{
+		Artist: 'Cold',
+		Album: 'Year Of The Spider'
+	},
+	{
+		Artist: 'Coldplay',
+		Album: 'A Rush Of Blood To The Head'
+	},
+	{
+		Artist: 'Collective Soul',
+		Album: 'Hints, Allegations, And Things Left Unsaid'
+	},
+	{
+		Artist: 'Collective Soul',
+		Album: 'Collective Soul'
+	},
+	{
+		Artist: 'Collective Soul',
+		Album: 'Disciplined Breakdown'
+	},
+	{
+		Artist: 'Collective Soul',
+		Album: 'Dosage'
+	},
+	{
+		Artist: 'Collective Soul',
+		Album: 'Blender'
+	},
+	{
+		Artist: 'Comes With The Fall',
+		Album: 'The Year Is One'
+	},
+	{
+		Artist: 'Counting Crows',
+		Album: 'August And Everything After'
+	},
+	{
+		Artist: 'Counting Crows',
+		Album: 'Recovering The Satellites'
+	},
+	{
+		Artist: 'Counting Crows',
+		Album: 'Across A Wire-Live In New York'
+	},
+	{
+		Artist: 'Counting Crows',
+		Album: 'This Desert Life'
+	},
+	{
+		Artist: 'Counting Crows',
+		Album: 'Hard Candy'
+	},
+	{
+		Artist: 'Creed',
+		Album: 'My Own Prison'
+	},
+	{
+		Artist: 'Creed',
+		Album: 'Weathered'
+	},
+	{
+		Artist: 'Darkness',
+		Album: 'Permission To Land'
+	},
+	{
+		Artist: 'Dashboard Confessional',
+		Album: 'The Places You Have Come To Fear'
+	},
+	{
+		Artist: 'Dashboard Confessional',
+		Album: 'A Mark, A Mission, A Brand, A Scar'
+	},
+	{
+		Artist: 'Datsuns',
+		Album: 'Datsuns'
+	},
+	{
+		Artist: 'Dave Matthews Band',
+		Album: 'Under The Table And Dreaming'
+	},
+	{
+		Artist: 'Dave Matthews Band',
+		Album: 'Crash'
+	},
+	{
+		Artist: 'Dave Matthews Band',
+		Album: 'Before These Crowded Streets'
+	},
+	{
+		Artist: 'Dave Matthews Band',
+		Album: 'Busted Stuff'
+	},
+	{
+		Artist: 'Dave Matthews and Tim Reynolds',
+		Album: 'Live At Luther College'
+	},
+	{
+		Artist: 'Dave Navarro',
+		Album: 'Trust No One'
+	},
+	{
+		Artist: 'Days Of The New',
+		Album: 'I (Yellow)'
+	},
+	{
+		Artist: 'Days Of The New',
+		Album: 'II (Green)'
+	},
+	{
+		Artist: 'Days Of The New',
+		Album: 'III (Red)'
+	},
+	{
+		Artist: 'DC Talk',
+		Album: 'Jesus Freak'
+	},
+	{
+		Artist: 'DC Talk',
+		Album: 'Welcome To The Freak Show (Live In Concert)'
+	},
+	{
+		Artist: 'DC Talk',
+		Album: 'Supernatural'
+	},
+	{
+		Artist: 'Dead Poetic',
+		Album: 'Four Wall Blackmail'
+	},
+	{
+		Artist: 'Deadsy',
+		Album: 'Commencement'
+	},
+	{
+		Artist: 'Default',
+		Album: 'The Fallout'
+	},
+	{
+		Artist: 'Deftones',
+		Album: 'Adrenaline'
+	},
+	{
+		Artist: 'Deftones',
+		Album: 'Around The Fur'
+	},
+	{
+		Artist: 'Deftones',
+		Album: 'The White Pony'
+	},
+	{
+		Artist: 'Deftones',
+		Album: 'Deftones'
+	},
+	{
+		Artist: 'Dinosaur Jr.',
+		Album: 'Without A Sound'
+	},
+	{
+		Artist: 'Double Trouble',
+		Album: 'Been A Long Time'
+	},
+	{
+		Artist: 'Doves',
+		Album: 'Last Broadcast'
+	},
+	{
+		Artist: 'Downset',
+		Album: 'Do We Speak A Dead Language'
+	},
+	{
+		Artist: 'Dr. Dre',
+		Album: 'The Chronic'
+	},
+	{
+		Artist: 'Dr. Dre',
+		Album: '2001'
+	},
+	{
+		Artist: 'Dream Theater',
+		Album: 'Six Degrees Of Inner Turbulency'
+	},
+	{
+		Artist: 'Dropkick Murphys',
+		Album: 'Murphys Blackout'
+	},
+	{
+		Artist: 'Dust For Life',
+		Album: 'Dust For Life'
+	},
+	{
+		Artist: 'Earshot',
+		Album: 'Letting Go'
+	},
+	{
+		Artist: 'Ed Roland',
+		Album: 'E'
+	},
+	{
+		Artist: 'Eminem',
+		Album: 'The Slim Shady LP'
+	},
+	{
+		Artist: 'Eminem',
+		Album: 'The Marshall Mathers LP'
+	},
+	{
+		Artist: 'Eminem',
+		Album: 'The Eminem Show'
+	},
+	{
+		Artist: 'Evanescence',
+		Album: 'Fallen'
+	},
+	{
+		Artist: 'Everclear',
+		Album: 'Sparkle And Fade'
+	},
+	{
+		Artist: 'Faith No More',
+		Album: 'Who Cares A Lot?'
+	},
+	{
+		Artist: 'Filter',
+		Album: 'Short Bus'
+	},
+	{
+		Artist: 'Filter',
+		Album: 'Title Of Record'
+	},
+	{
+		Artist: 'Filter',
+		Album: 'The Amalgamut'
+	},
+	{
+		Artist: 'Finger Eleven',
+		Album: 'Tip'
+	},
+	{
+		Artist: 'Finger Eleven',
+		Album: 'Greyest Of Blue Skies'
+	},
+	{
+		Artist: 'Finger Eleven',
+		Album: 'Finger Eleven'
+	},
+	{
+		Artist: 'Fiona Apple',
+		Album: 'Tidal'
+	},
+	{
+		Artist: 'Fiona Apple',
+		Album: 'When The Pawn…'
+	},
+	{
+		Artist: 'Five Iron Frenzy',
+		Album: 'Upbeats And Beatdowns'
+	},
+	{
+		Artist: 'Five Iron Frenzy',
+		Album: 'Our Newest Album Ever'
+	},
+	{
+		Artist: 'Five Iron Frenzy',
+		Album: 'Quantity Is Job 1'
+	},
+	{
+		Artist: 'Five Iron Frenzy',
+		Album: 'Live: Proof That The Youth Are Revolting'
+	},
+	{
+		Artist: 'Five Iron Frenzy',
+		Album: 'All The Hype That Money Can Buy'
+	},
+	{
+		Artist: 'Five Iron Frenzy',
+		Album: 'FIF2: Electric Boogaloo'
+	},
+	{
+		Artist: 'Five Iron Frenzy',
+		Album: 'Cheeses'
+	},
+	{
+		Artist: 'Flickerstick',
+		Album: 'Welcoming Home The Astronauts (Reissue)'
+	},
+	{
+		Artist: 'Foo Fighters',
+		Album: 'Foo Fighters'
+	},
+	{
+		Artist: 'Foo Fighters',
+		Album: 'The Colour And The Shape'
+	},
+	{
+		Artist: 'Foo Fighters',
+		Album: 'There Is Nothing Left To Lose'
+	},
+	{
+		Artist: 'Foo Fighters',
+		Album: 'One By One'
+	},
+	{
+		Artist: 'Fuel',
+		Album: 'Something Like Human'
+	},
+	{
+		Artist: 'Fugazi',
+		Album: 'Repeater'
+	},
+	{
+		Artist: 'Fugazi',
+		Album: 'In On The Kill Taker'
+	},
+	{
+		Artist: 'Fugazi',
+		Album: 'Red Medicine'
+	},
+	{
+		Artist: 'Fugazi',
+		Album: 'The Argument'
+	},
+	{
+		Artist: 'Glassjaw',
+		Album: 'Everything You Wanted To Know'
+	},
+	{
+		Artist: 'Glassjaw',
+		Album: 'Worship And Tribute'
+	},
+	{
+		Artist: 'God Lives Underwater',
+		Album: 'Empty'
+	},
+	{
+		Artist: 'Gomez',
+		Album: 'In Our Gun'
+	},
+	{
+		Artist: 'Good Charlotte',
+		Album: 'The Young And The Hopeless'
+	},
+	{
+		Artist: 'Gorillaz',
+		Album: 'Gorillaz'
+	},
+	{
+		Artist: 'Grammatrain',
+		Album: 'Lonely House'
+	},
+	{
+		Artist: 'Grammatrain',
+		Album: 'Flying'
+	},
+	{
+		Artist: 'Gravity Kills',
+		Album: 'Superstarved'
+	},
+	{
+		Artist: 'Green Day',
+		Album: 'Dookie'
+	},
+	{
+		Artist: 'Green Day',
+		Album: 'Insomniac'
+	},
+	{
+		Artist: 'Green Day',
+		Album: 'Nimrod'
+	},
+	{
+		Artist: 'Green Day',
+		Album: 'Warning'
+	},
+	{
+		Artist: 'Green River',
+		Album: 'Dry As A Bone/Rehab Doll'
+	},
+	{
+		Artist: 'Guns N’ Roses',
+		Album: 'Appetite For Destruction'
+	},
+	{
+		Artist: 'Guns N’ Roses',
+		Album: 'GNR Lies'
+	},
+	{
+		Artist: 'Guns N’ Roses',
+		Album: 'Use Your Illusion I'
+	},
+	{
+		Artist: 'Guns N’ Roses',
+		Album: 'Use Your Illusion II'
+	},
+	{
+		Artist: 'Guns N’ Roses',
+		Album: 'Live Era ’87-’93'
+	},
+	{
+		Artist: 'Guns N’ Roses',
+		Album: 'Live Promo'
+	},
+	{
+		Artist: 'Hoarse',
+		Album: 'Happens Twice'
+	},
+	{
+		Artist: 'Hole',
+		Album: 'Live Through This'
+	},
+	{
+		Artist: 'Hot Hot Heat',
+		Album: 'Scenes One Through Thirteen'
+	},
+	{
+		Artist: 'Hot Hot Heat',
+		Album: 'Makeup The Breakdown'
+	},
+	{
+		Artist: 'Hum',
+		Album: 'You’d Prefer An Astronaut'
+	},
+	{
+		Artist: 'I Mother Earth',
+		Album: 'Dig'
+	},
+	{
+		Artist: 'Incubus',
+		Album: 'Enjoy Incubus'
+	},
+	{
+		Artist: 'Incubus',
+		Album: 'Fungus Amongus'
+	},
+	{
+		Artist: 'Incubus',
+		Album: 'S.C.I.E.N.C.E.'
+	},
+	{
+		Artist: 'Incubus',
+		Album: 'Make Yourself'
+	},
+	{
+		Artist: 'Incubus',
+		Album: 'Morning View'
+	},
+	{
+		Artist: 'Interpol',
+		Album: 'Turn On The Bright Lights'
+	},
+	{
+		Artist: 'J Mascis & The Fog',
+		Album: 'More Light'
+	},
+	{
+		Artist: 'J Mascis & The Fog',
+		Album: 'Free So Free'
+	},
+	{
+		Artist: 'Jack Johnson',
+		Album: 'Brushfire Fairytales'
+	},
+	{
+		Artist: 'Jamiroquai',
+		Album: 'Traveling Without Moving'
+	},
+	{
+		Artist: 'Jamiroquai',
+		Album: 'Synkronized'
+	},
+	{
+		Artist: 'Jane’s Addiction',
+		Album: 'Nothing’s Shocking'
+	},
+	{
+		Artist: 'Jane’s Addiction',
+		Album: 'Ritual De Lo Habitual'
+	},
+	{
+		Artist: 'Jane’s Addiction',
+		Album: 'Kettle Whistle'
+	},
+	{
+		Artist: 'Jane’s Addiction',
+		Album: 'Strays'
+	},
+	{
+		Artist: 'Jars Of Clay',
+		Album: 'Jars Of Clay'
+	},
+	{
+		Artist: 'Jars Of Clay',
+		Album: 'Much Afraid'
+	},
+	{
+		Artist: 'Jars Of Clay',
+		Album: 'If I Left The Zoo'
+	},
+	{
+		Artist: 'Jerry Cantrell',
+		Album: 'Boggy Depot'
+	},
+	{
+		Artist: 'Jerry Cantrell',
+		Album: 'Degradation Trip Volumes 1 & 2'
+	},
+	{
+		Artist: 'Jimi Hendrix',
+		Album: 'Experience Hendrix'
+	},
+	{
+		Artist: 'Jimmy Eat World',
+		Album: 'Jimmy Eat World'
+	},
+	{
+		Artist: 'Jimmy Page',
+		Album: 'No Introduction Necessary'
+	},
+	{
+		Artist: 'Jimmy Page & The Black Crowes',
+		Album: 'Live At The Greek'
+	},
+	{
+		Artist: 'John Coltrane',
+		Album: 'Coltrane (Deluxe Edition)'
+	},
+	{
+		Artist: 'John Coltrane',
+		Album: 'The Essential'
+	},
+	{
+		Artist: 'John Reuben',
+		Album: 'Are We There Yet?'
+	},
+	{
+		Artist: 'Johnny Q. Public',
+		Album: 'Extra-Ordinary'
+	},
+	{
+		Artist: 'Kenny Wayne Shepherd Band',
+		Album: 'Trouble Is...'
+	},
+	{
+		Artist: 'Kid Rock',
+		Album: 'The Polyfuze Method'
+	},
+	{
+		Artist: 'Kid Rock',
+		Album: 'Devil Without A Cause'
+	},
+	{
+		Artist: 'Kid Rock',
+		Album: 'Cocky'
+	},
+	{
+		Artist: 'Kid Rock',
+		Album: 'Kid Rock'
+	},
+	{
+		Artist: 'Kid Rock',
+		Album: 'American Badass'
+	},
+	{
+		Artist: 'KoRn',
+		Album: 'KoRn'
+	},
+	{
+		Artist: 'KoRn',
+		Album: 'Life Is Peachy'
+	},
+	{
+		Artist: 'KoRn',
+		Album: 'Follow The Leader'
+	},
+	{
+		Artist: 'KoRn',
+		Album: 'Issues'
+	},
+	{
+		Artist: 'KoRn',
+		Album: 'Untouchables'
+	},
+	{
+		Artist: 'Lars Frederiksen & The Bastards',
+		Album: 'Lars Frederiksen & The Bastards'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'I'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'II'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'III'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'IV'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'Houses Of The Holy'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'Physical Graffiti'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'Presence'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'Song Remains The Same'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'In Through The Out Door'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'Coda'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'BBC Sessions'
+	},
+	{
+		Artist: 'Led Zeppelin',
+		Album: 'How The West Was Won'
+	},
+	{
+		Artist: 'Les Claypool & The Frog Brigade',
+		Album: 'Purple Onion'
+	},
+	{
+		Artist: 'Liam Lynch',
+		Album: 'Fake Songs'
+	},
+	{
+		Artist: 'Lifehouse',
+		Album: 'No Name Face'
+	},
+	{
+		Artist: 'Lifehouse',
+		Album: 'Stanley Climbfall'
+	},
+	{
+		Artist: 'Limp Bizkit',
+		Album: '3 Dollar Bill Y’all'
+	},
+	{
+		Artist: 'Limp Bizkit',
+		Album: 'Significant Other'
+	},
+	{
+		Artist: 'Limp Bizkit',
+		Album: 'Results May Vary'
+	},
+	{
+		Artist: 'Linkin Park',
+		Album: 'Hybrid Theory'
+	},
+	{
+		Artist: 'Linkin Park',
+		Album: 'Meteora'
+	},
+	{
+		Artist: 'Live',
+		Album: 'Throwing Copper'
+	},
+	{
+		Artist: 'Live',
+		Album: 'Secret Samadhi'
+	},
+	{
+		Artist: 'Lloyd',
+		Album: 'Thoughts From A Driveway'
+	},
+	{
+		Artist: 'Local H',
+		Album: 'As Good As Dead'
+	},
+	{
+		Artist: 'Local H',
+		Album: 'Here Comes The Zoo'
+	},
+	{
+		Artist: 'Love Battery',
+		Album: 'Dayglo'
+	},
+	{
+		Artist: 'Mad Season',
+		Album: 'Above'
+	},
+	{
+		Artist: 'Meat Puppets',
+		Album: 'Too High To Die'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'Kill ‘Em All'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'Ride The Lightning'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'Master Of Puppets'
+	},
+	{
+		Artist: 'Metallica',
+		Album: '...And Justice For All'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'Metallica'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'Load'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'Reload'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'S&M'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'St. Anger'
+	},
+	{
+		Artist: 'Metallica',
+		Album: 'Garage Days'
+	},
+	{
+		Artist: 'Mike Watt',
+		Album: 'Ball-Hog Or Tugboat?'
+	},
+	{
+		Artist: 'Mindless Self Indulgence',
+		Album: 'Frankenstein Girls Will Seem Strangely Sexy'
+	},
+	{
+		Artist: 'Modest Mouse',
+		Album: 'The Moon And Antarctica'
+	},
+	{
+		Artist: 'Mother Love Bone',
+		Album: 'Mother Love Bone'
+	},
+	{
+		Artist: 'Mudhoney',
+		Album: 'BBC Sessions'
+	},
+	{
+		Artist: 'Mudhoney',
+		Album: 'Since We’ve Become Translucent'
+	},
+	{
+		Artist: 'Mudvayne',
+		Album: 'LD 50'
+	},
+	{
+		Artist: 'Mudvayne',
+		Album: 'The End Of All Things To Come'
+	},
+	{
+		Artist: 'MxPx',
+		Album: 'At The Show'
+	},
+	{
+		Artist: 'MxPx',
+		Album: 'Ten Years And Running'
+	},
+	{
+		Artist: 'MxPx',
+		Album: 'Before Everything And After'
+	},
+	{
+		Artist: 'Nas',
+		Album: 'God’s Son'
+	},
+	{
+		Artist: 'Neil Young',
+		Album: 'Mirrorball'
+	},
+	{
+		Artist: 'Newsboys',
+		Album: 'Take Me To Your Leader'
+	},
+	{
+		Artist: 'Nickelback',
+		Album: 'Silver Side Up'
+	},
+	{
+		Artist: 'Nickelback',
+		Album: 'The State'
+	},
+	{
+		Artist: 'Nickelback',
+		Album: 'The Long Road'
+	},
+	{
+		Artist: 'Nine Inch Nails',
+		Album: 'Pretty Hate Machine'
+	},
+	{
+		Artist: 'Nine Inch Nails',
+		Album: 'The Downward Spiral'
+	},
+	{
+		Artist: 'Nine Inch Nails',
+		Album: 'The Fragile'
+	},
+	{
+		Artist: 'Nine Inch Nails',
+		Album: 'And All That Could Have Been'
+	},
+	{
+		Artist: 'Nirvana',
+		Album: 'Bleach'
+	},
+	{
+		Artist: 'Nirvana',
+		Album: 'Nevermind'
+	},
+	{
+		Artist: 'Nirvana',
+		Album: 'Incesticide'
+	},
+	{
+		Artist: 'Nirvana',
+		Album: 'In Utero'
+	},
+	{
+		Artist: 'Nirvana',
+		Album: 'MTV Unplugged In New York'
+	},
+	{
+		Artist: 'Nirvana',
+		Album: 'From The Muddy Banks Of The Wishkah'
+	},
+	{
+		Artist: 'Nirvana',
+		Album: 'Nirvana'
+	},
+	{
+		Artist: 'No Doubt',
+		Album: 'Tragic Kingdom'
+	},
+	{
+		Artist: 'No Doubt',
+		Album: 'Return To Saturn'
+	},
+	{
+		Artist: 'No Doubt',
+		Album: 'Rock Steady'
+	},
+	{
+		Artist: 'NOFX',
+		Album: 'The War On Errorism'
+	},
+	{
+		Artist: 'N.W.A.',
+		Album: 'Greatest Hits'
+	},
+	{
+		Artist: 'Oasis',
+		Album: 'Definitely Maybe'
+	},
+	{
+		Artist: 'Oasis',
+		Album: 'Be Here Now'
+	},
+	{
+		Artist: 'Oasis',
+		Album: 'Standing On The Shoulders Of Giants'
+	},
+	{
+		Artist: 'Oasis',
+		Album: 'Heathen Chemistry'
+	},
+	{
+		Artist: 'Oleander',
+		Album: 'February Son'
+	},
+	{
+		Artist: 'Orishas',
+		Album: 'A Lo Cubano'
+	},
+	{
+		Artist: 'Our Lady Peace',
+		Album: 'Naveed'
+	},
+	{
+		Artist: 'Our Lady Peace',
+		Album: 'Clumsy'
+	},
+	{
+		Artist: 'Our Lady Peace',
+		Album: 'Happiness Is Not A Fish That You Can Catch'
+	},
+	{
+		Artist: 'Our Lady Peace',
+		Album: 'Gravity'
+	},
+	{
+		Artist: 'Ours',
+		Album: 'Distorted Lullabies'
+	},
+	{
+		Artist: 'Outkast',
+		Album: 'Speakerboxxx/The Love Below'
+	},
+	{
+		Artist: 'Ozzy',
+		Album: 'Ozzmosis'
+	},
+	{
+		Artist: 'Ozzy',
+		Album: 'Live At Budokan'
+	},
+	{
+		Artist: 'Pantera',
+		Album: 'Cowboys From Hell'
+	},
+	{
+		Artist: 'Pantera',
+		Album: 'Far Beyond The Great Southern Cowboys’ Vulgar Hits'
+	},
+	{
+		Artist: 'Peach',
+		Album: 'Giving Birth To A Stone'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Ten'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Vs.'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Vitalogy'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'No Code'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Yield'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Live On Two Legs'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Binaural'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Riot Act'
+	},
+	{
+		Artist: 'Pearl Jam',
+		Album: 'Lost Dogs'
+	},
+	{
+		Artist: 'Pete Townshend',
+		Album: 'Live: A Benefit For The Marysville Academy'
+	},
+	{
+		Artist: 'Pete Townshend',
+		Album: 'Scooped III'
+	},
+	{
+		Artist: 'Phish',
+		Album: 'Live Phish Volume 14'
+	},
+	{
+		Artist: 'Pink Floyd',
+		Album: 'Animals'
+	},
+	{
+		Artist: 'Pink Floyd',
+		Album: 'Wish You Were Here'
+	},
+	{
+		Artist: 'Pink Floyd',
+		Album: 'The Wall'
+	},
+	{
+		Artist: 'Pink Floyd',
+		Album: 'Dark Side Of The Moon'
+	},
+	{
+		Artist: 'Pink Floyd',
+		Album: 'The Final Cut'
+	},
+	{
+		Artist: 'Pink Floyd',
+		Album: 'Echoes'
+	},
+	{
+		Artist: 'Placebo',
+		Album: 'Sleeping With Ghosts'
+	},
+	{
+		Artist: 'Plankeye',
+		Album: 'The One And Only'
+	},
+	{
+		Artist: 'P.O.D.',
+		Album: 'The Fundamental Elements Of Southtown'
+	},
+	{
+		Artist: 'P.O.D.',
+		Album: 'Satellite'
+	},
+	{
+		Artist: 'P.O.D.',
+		Album: 'Payable On Death'
+	},
+	{
+		Artist: 'Poison',
+		Album: 'Best Of Ballads And Blues'
+	},
+	{
+		Artist: 'Polarboy',
+		Album: 'Back From Nowhere'
+	},
+	{
+		Artist: 'Primus',
+		Album: 'Pork Soda'
+	},
+	{
+		Artist: 'Primus',
+		Album: 'Anti-Pop'
+	},
+	{
+		Artist: 'Primus',
+		Album: 'Animals Should Not Try To Act Like People'
+	},
+	{
+		Artist: 'Project 86',
+		Album: 'Project 86'
+	},
+	{
+		Artist: 'Puddle Of Mudd',
+		Album: 'Come Clean'
+	},
+	{
+		Artist: 'Queens Of The Stone Age',
+		Album: 'Queens Of The Stone Age'
+	},
+	{
+		Artist: 'Queens Of The Stone Age',
+		Album: 'Rated R'
+	},
+	{
+		Artist: 'Queens Of The Stone Age',
+		Album: 'Songs For The Deaf'
+	},
+	{
+		Artist: 'Radiohead',
+		Album: 'The Bends'
+	},
+	{
+		Artist: 'Radiohead',
+		Album: 'OK Computer'
+	},
+	{
+		Artist: 'Radiohead',
+		Album: 'Kid A'
+	},
+	{
+		Artist: 'Radiohead',
+		Album: 'I Might Be Wrong'
+	},
+	{
+		Artist: 'Radiohead',
+		Album: 'Hail To The Thief'
+	},
+	{
+		Artist: 'Rage Against The Machine',
+		Album: 'Rage Against The Machine'
+	},
+	{
+		Artist: 'Rage Against The Machine',
+		Album: 'Evil Empire'
+	},
+	{
+		Artist: 'Rage Against The Machine',
+		Album: 'The Battle Of Los Angeles'
+	},
+	{
+		Artist: 'Rage Against The Machine',
+		Album: 'Renegades'
+	},
+	{
+		Artist: 'Ramones',
+		Album: 'Anthology'
+	},
+	{
+		Artist: 'Rancid',
+		Album: '...And Out Come The Wolves'
+	},
+	{
+		Artist: 'Rancid',
+		Album: 'Life Won’t Wait'
+	},
+	{
+		Artist: 'Rancid',
+		Album: 'Rancid 5'
+	},
+	{
+		Artist: 'Rancid',
+		Album: 'Indestructible'
+	},
+	{
+		Artist: 'Rascal Flatts',
+		Album: 'Melt'
+	},
+	{
+		Artist: 'Reality Check',
+		Album: 'Reality Check'
+	},
+	{
+		Artist: 'Red Hot Chili Peppers',
+		Album: 'Blood, Sugar, Sex, Magik'
+	},
+	{
+		Artist: 'Red Hot Chili Peppers',
+		Album: 'Californication'
+	},
+	{
+		Artist: 'Red Hot Chili Peppers',
+		Album: 'By The Way'
+	},
+	{
+		Artist: 'Red Hot Chili Peppers',
+		Album: 'Greatest Hits'
+	},
+	{
+		Artist: 'Reef',
+		Album: 'Glow'
+	},
+	{
+		Artist: 'Refused',
+		Album: 'Songs To Fan The Flames Of Discontent'
+	},
+	{
+		Artist: 'Refused',
+		Album: 'The Shape Of Punk To Come'
+	},
+	{
+		Artist: 'REM',
+		Album: 'Document'
+	},
+	{
+		Artist: 'REM',
+		Album: 'Green'
+	},
+	{
+		Artist: 'REM',
+		Album: 'Out Of Time'
+	},
+	{
+		Artist: 'REM',
+		Album: 'Automatic For The People'
+	},
+	{
+		Artist: 'REM',
+		Album: 'Monster'
+	},
+	{
+		Artist: 'REM',
+		Album: 'New Adventures In Hi-Fi'
+	},
+	{
+		Artist: 'REM',
+		Album: 'Up'
+	},
+	{
+		Artist: 'REM',
+		Album: 'Reveal'
+	},
+	{
+		Artist: 'Rob Zombie',
+		Album: 'Greatest Hits Past, Present, and Future'
+	},
+	{
+		Artist: 'Robert Plant',
+		Album: 'Sixty-Six To Timbuktu'
+	},
+	{
+		Artist: 'Rooney',
+		Album: 'Rooney'
+	},
+	{
+		Artist: 'Self',
+		Album: 'Subliminal Plastic Motives'
+	},
+	{
+		Artist: 'Seven Mary Three',
+		Album: 'American Standard'
+	},
+	{
+		Artist: 'Seven Mary Three',
+		Album: 'Rock Crown'
+	},
+	{
+		Artist: 'Seven Mary Three',
+		Album: 'The Economy Of Sound'
+	},
+	{
+		Artist: 'Sevendust',
+		Album: 'Sevendust'
+	},
+	{
+		Artist: 'Sevendust',
+		Album: 'Home'
+	},
+	{
+		Artist: 'Sevendust',
+		Album: 'Animosity'
+	},
+	{
+		Artist: 'Sevendust',
+		Album: 'Seasons'
+	},
+	{
+		Artist: 'Silverchair',
+		Album: 'Frogstomp'
+	},
+	{
+		Artist: 'Silverchair',
+		Album: 'Freak Show'
+	},
+	{
+		Artist: 'Silverchair',
+		Album: 'Neon Ballroom'
+	},
+	{
+		Artist: 'Silverchair',
+		Album: 'Diorama'
+	},
+	{
+		Artist: 'Skillet',
+		Album: 'Skillet'
+	},
+	{
+		Artist: 'Skillet',
+		Album: 'Hey You, I Love Your Soul'
+	},
+	{
+		Artist: 'Skillet',
+		Album: 'Invincible'
+	},
+	{
+		Artist: 'Sleater Kinney',
+		Album: 'The Hot Rock'
+	},
+	{
+		Artist: 'Slick Shoes',
+		Album: 'Slick Shoes'
+	},
+	{
+		Artist: 'Smash Mouth',
+		Album: 'Fush Yu Mang'
+	},
+	{
+		Artist: 'Smile',
+		Album: 'Maquee'
+	},
+	{
+		Artist: 'Smile Empty Soul',
+		Album: 'Smile Empty Soul'
+	},
+	{
+		Artist: 'Snoop Doggy Dogg',
+		Album: 'Doggystyle'
+	},
+	{
+		Artist: 'Sometime Sunday',
+		Album: 'Stone'
+	},
+	{
+		Artist: 'Sometime Sunday',
+		Album: 'Drain'
+	},
+	{
+		Artist: 'Soundgarden',
+		Album: 'Screaming Life/Fopp'
+	},
+	{
+		Artist: 'Soundgarden',
+		Album: 'Badmotorfinger'
+	},
+	{
+		Artist: 'Soundgarden',
+		Album: 'Superunknown'
+	},
+	{
+		Artist: 'Soundgarden',
+		Album: 'Down On The Upside'
+	},
+	{
+		Artist: 'Soundgarden',
+		Album: 'A-Sides'
+	},
+	{
+		Artist: 'Sparta',
+		Album: 'Wiretap Scars'
+	},
+	{
+		Artist: 'Split Enz',
+		Album: 'History Never Repeats: The Best Of Split Enz'
+	},
+	{
+		Artist: 'Squad Five-O',
+		Album: 'Squad Five-O'
+	},
+	{
+		Artist: 'Stabbing Westward',
+		Album: 'Wither, Blister, Burn, & Peel'
+	},
+	{
+		Artist: 'Staind',
+		Album: 'Dysfunction'
+	},
+	{
+		Artist: 'Staind',
+		Album: 'Break The Cycle'
+	},
+	{
+		Artist: 'Staind',
+		Album: '14 Shades Of Grey'
+	},
+	{
+		Artist: 'Starflyer 59',
+		Album: 'Silver'
+	},
+	{
+		Artist: 'Starflyer 59',
+		Album: 'Fashion Focus'
+	},
+	{
+		Artist: 'Starflyer 59',
+		Album: 'Old'
+	},
+	{
+		Artist: 'Steve Taylor',
+		Album: 'Liver'
+	},
+	{
+		Artist: 'Stone Gossard',
+		Album: 'Bayleaf'
+	},
+	{
+		Artist: 'Stone Sour',
+		Album: 'Stone Sour'
+	},
+	{
+		Artist: 'Stone Temple Pilots',
+		Album: 'Core'
+	},
+	{
+		Artist: 'Stone Temple Pilots',
+		Album: 'Purple'
+	},
+	{
+		Artist: 'Stone Temple Pilots',
+		Album: 'Tiny Music: Songs From The Vatican Gift Shop'
+	},
+	{
+		Artist: 'Stone Temple Pilots',
+		Album: 'No. 4'
+	},
+	{
+		Artist: 'S.T.U.N.',
+		Album: 'Evolution Of Energy'
+	},
+	{
+		Artist: 'Sublime',
+		Album: 'Robbin The Hood'
+	},
+	{
+		Artist: 'Sublime',
+		Album: 'Sublime'
+	},
+	{
+		Artist: 'Sublime',
+		Album: 'Stand By Your Van (Live)'
+	},
+	{
+		Artist: 'Sublime',
+		Album: 'Second Hand Smoke'
+	},
+	{
+		Artist: 'Sugar Ray',
+		Album: 'Lemonade And Brownies'
+	},
+	{
+		Artist: 'Supagroup',
+		Album: 'Supagroup'
+	},
+	{
+		Artist: 'System Of A Down',
+		Album: 'Toxicity'
+	},
+	{
+		Artist: 'System Of A Down',
+		Album: 'Steal This Album'
+	},
+	{
+		Artist: 'Tantric',
+		Album: 'Tantric'
+	},
+	{
+		Artist: 'Taproot',
+		Album: 'Something More Than Nothing'
+	},
+	{
+		Artist: 'Taproot',
+		Album: 'Upon Us'
+	},
+	{
+		Artist: 'Taproot',
+		Album: 'Gift'
+	},
+	{
+		Artist: 'Taproot',
+		Album: 'Welcome'
+	},
+	{
+		Artist: 'Temple Of The Dog',
+		Album: 'Temple Of The Dog'
+	},
+	{
+		Artist: 'The Beatles',
+		Album: 'Revolver'
+	},
+	{
+		Artist: 'The Beatles',
+		Album: 'Beatles 1'
+	},
+	{
+		Artist: 'The Black Crowes',
+		Album: 'Shake Your Money Maker'
+	},
+	{
+		Artist: 'The Black Crowes',
+		Album: 'The Southern Harmony And Musical Companion'
+	},
+	{
+		Artist: 'The Black Crowes',
+		Album: 'Lions'
+	},
+	{
+		Artist: 'The Black Keys',
+		Album: 'Thickfreakness'
+	},
+	{
+		Artist: 'The Buzzcocks',
+		Album: 'The Buzzcocks'
+	},
+	{
+		Artist: 'The Clash',
+		Album: 'London Calling'
+	},
+	{
+		Artist: 'The Clash',
+		Album: 'The Singles'
+	},
+	{
+		Artist: 'The Cult',
+		Album: 'Beyond Good And Evil'
+	},
+	{
+		Artist: 'The Cult',
+		Album: 'Pure Cult'
+	},
+	{
+		Artist: 'The Cult',
+		Album: 'The Cult'
+	},
+	{
+		Artist: 'The Cult',
+		Album: 'Sonic Temple'
+	},
+	{
+		Artist: 'The Dingees',
+		Album: 'Armageddon Massive'
+	},
+	{
+		Artist: 'The Dingees',
+		Album: 'Sundown To Midnight'
+	},
+	{
+		Artist: 'The Doors',
+		Album: 'Absolutely Live'
+	},
+	{
+		Artist: 'The Doors',
+		Album: 'The Best Of The Doors'
+	},
+	{
+		Artist: 'The Exies',
+		Album: 'Inertia'
+	},
+	{
+		Artist: 'The Flaming Lips',
+		Album: 'Transmissions From The Satellite Heart'
+	},
+	{
+		Artist: 'The Flaming Lips',
+		Album: 'Soft Bulletin'
+	},
+	{
+		Artist: 'The Flaming Lips',
+		Album: 'Yoshimi Battles The Pink Robots'
+	},
+	{
+		Artist: 'The Go',
+		Album: 'Watcha Doin'
+	},
+	{
+		Artist: 'The Hives',
+		Album: 'Your New Favorite Band'
+	},
+	{
+		Artist: 'The Insyderz',
+		Album: 'Fight Of My Life'
+	},
+	{
+		Artist: 'The Living End',
+		Album: 'Roll On'
+	},
+	{
+		Artist: 'The Mars Volta',
+		Album: 'Deloused In The Comatorium'
+	},
+	{
+		Artist: 'The Nixons',
+		Album: 'Foma'
+	},
+	{
+		Artist: 'The Offspring',
+		Album: 'Smash'
+	},
+	{
+		Artist: 'The Offspring',
+		Album: 'Ixnay On The Hombray'
+	},
+	{
+		Artist: 'The Offspring',
+		Album: 'Conspiracy Of One'
+	},
+	{
+		Artist: 'The Offspring',
+		Album: 'Splinter'
+	},
+	{
+		Artist: 'The Orange County Supertones',
+		Album: 'Adventures Of The O.C. Supertones'
+	},
+	{
+		Artist: 'The Orange County Supertones',
+		Album: 'Supertones Strike Back'
+	},
+	{
+		Artist: 'The Orange County Supertones',
+		Album: 'Chase The Sun'
+	},
+	{
+		Artist: 'The Orange County Supertones',
+		Album: 'Loud And Clear'
+	},
+	{
+		Artist: 'The Orange County Supertones',
+		Album: 'Hi-Fi Revival'
+	},
+	{
+		Artist: 'The Rapture',
+		Album: 'Echoes'
+	},
+	{
+		Artist: 'The Rockfords',
+		Album: 'The Rockfords'
+	},
+	{
+		Artist: 'The Rolling Stones',
+		Album: 'Forty Licks'
+	},
+	{
+		Artist: 'The Roots',
+		Album: 'Phrenology'
+	},
+	{
+		Artist: 'The Smashing Pumpkins',
+		Album: 'Pisces Iscariot'
+	},
+	{
+		Artist: 'The Smashing Pumpkins',
+		Album: 'Mellon Collie And The Infinite Sadness'
+	},
+	{
+		Artist: 'The Smashing Pumpkins',
+		Album: 'Greatest Hits'
+	},
+	{
+		Artist: 'The Suicide Machines',
+		Album: 'A Match And Some Gasoline'
+	},
+	{
+		Artist: 'The Strokes',
+		Album: 'Is This It'
+	},
+	{
+		Artist: 'The Strokes',
+		Album: 'Room On Fire'
+	},
+	{
+		Artist: 'The Tea Party',
+		Album: 'Splendor Solis'
+	},
+	{
+		Artist: 'The Tea Party',
+		Album: 'The Edges Of Twilight'
+	},
+	{
+		Artist: 'The Tea Party',
+		Album: 'Alhambra'
+	},
+	{
+		Artist: 'The Tea Party',
+		Album: 'Transmission'
+	},
+	{
+		Artist: 'The Tea Party',
+		Album: 'Triptych'
+	},
+	{
+		Artist: 'The Tea Party',
+		Album: 'The Interzone Mantras'
+	},
+	{
+		Artist: 'The Tea Party',
+		Album: 'Tangents'
+	},
+	{
+		Artist: 'The Used',
+		Album: 'The Used'
+	},
+	{
+		Artist: 'The Used',
+		Album: 'Maybe Memories'
+	},
+	{
+		Artist: 'The Velvet Underground',
+		Album: 'Nico'
+	},
+	{
+		Artist: 'The Vines',
+		Album: 'Highly Evolved'
+	},
+	{
+		Artist: 'The Wallflowers',
+		Album: 'Bringing Down The Horse'
+	},
+	{
+		Artist: 'The Wallflowers',
+		Album: 'Breach'
+	},
+	{
+		Artist: 'The Wallflowers',
+		Album: 'Red Letter Days'
+	},
+	{
+		Artist: 'The White Stripes',
+		Album: 'De Stijl'
+	},
+	{
+		Artist: 'The White Stripes',
+		Album: 'Elephant'
+	},
+	{
+		Artist: 'The Who',
+		Album: 'Who’s Next'
+	},
+	{
+		Artist: 'The Who',
+		Album: 'Live At Leeds'
+	},
+	{
+		Artist: 'The Who',
+		Album: 'Who’s Better, Who’s Best'
+	},
+	{
+		Artist: 'The Who',
+		Album: 'BBC Sessions'
+	},
+	{
+		Artist: 'Third Day',
+		Album: 'Third Day'
+	},
+	{
+		Artist: 'Third Day',
+		Album: 'Conspiracy No. 5'
+	},
+	{
+		Artist: 'Third Eye Blind',
+		Album: 'Third Eye Blind'
+	},
+	{
+		Artist: 'Thrice',
+		Album: 'The Artist In The Ambulance'
+	},
+	{
+		Artist: 'Thursday',
+		Album: 'Full Collapse'
+	},
+	{
+		Artist: 'Thursday',
+		Album: 'War All The Time'
+	},
+	{
+		Artist: 'Toadies',
+		Album: 'Rubberneck'
+	},
+	{
+		Artist: 'Toadies',
+		Album: 'Hell Below/Stars Above'
+	},
+	{
+		Artist: 'Tom Petty and the Heart Breakers',
+		Album: 'Anthology Through The Years'
+	},
+	{
+		Artist: 'Tonic',
+		Album: 'Lemon Parade'
+	},
+	{
+		Artist: 'Tool',
+		Album: 'Opiate'
+	},
+	{
+		Artist: 'Tool',
+		Album: 'Undertow'
+	},
+	{
+		Artist: 'Tool',
+		Album: 'Aenima'
+	},
+	{
+		Artist: 'Tool',
+		Album: 'Lateralus'
+	},
+	{
+		Artist: 'Tragedy Ann',
+		Album: 'Lesser'
+	},
+	{
+		Artist: 'Tragedy Ann',
+		Album: 'One Nation Under God...'
+	},
+	{
+		Artist: 'Transplants',
+		Album: 'Transplants'
+	},
+	{
+		Artist: 'TRUSTcompany',
+		Album: 'The Lonely Position Of Neutral'
+	},
+	{
+		Artist: 'U2',
+		Album: 'War'
+	},
+	{
+		Artist: 'U2',
+		Album: 'October'
+	},
+	{
+		Artist: 'U2',
+		Album: 'The Joshua Tree'
+	},
+	{
+		Artist: 'U2',
+		Album: 'Achtung Baby'
+	},
+	{
+		Artist: 'U2',
+		Album: 'All That You Can’t Leave Behind'
+	},
+	{
+		Artist: 'Ugly Kid Joe',
+		Album: 'America’s Least Wanted'
+	},
+	{
+		Artist: 'Ultraspank',
+		Album: 'Progress'
+	},
+	{
+		Artist: 'Van Halen',
+		Album: '5150'
+	},
+	{
+		Artist: 'Van Halen',
+		Album: 'Live: Right Here, Right Now'
+	},
+	{
+		Artist: 'Van Halen',
+		Album: 'Balance'
+	},
+	{
+		Artist: 'Van Halen',
+		Album: 'Best Of: Vol. 1'
+	},
+	{
+		Artist: 'Vanilla Ice',
+		Album: 'Hard To Swallow'
+	},
+	{
+		Artist: 'VAST',
+		Album: 'Music For People'
+	},
+	{
+		Artist: 'Vendetta Red',
+		Album: 'Between The Never And The Now'
+	},
+	{
+		Artist: 'Veruca Salt',
+		Album: 'Eight Arms To Hold You'
+	},
+	{
+		Artist: 'Wax',
+		Album: '13 Unlucky Numbers'
+	},
+	{
+		Artist: 'Weezer',
+		Album: 'Weezer'
+	},
+	{
+		Artist: 'Weezer',
+		Album: 'Pinkerton'
+	},
+	{
+		Artist: 'Weezer',
+		Album: 'Weezer'
+	},
+	{
+		Artist: 'Weezer',
+		Album: 'Maladroit'
+	},
+	{
+		Artist: 'Weird Al Yankovic',
+		Album: 'Poodle Hat'
+	},
+	{
+		Artist: 'Wellwater Conspiracy',
+		Album: 'The Scroll And Its Combinations'
+	},
+	{
+		Artist: 'White Zombie',
+		Album: 'La Sexorcisto'
+	},
+	{
+		Artist: 'White Zombie',
+		Album: 'AstroCreep 2000'
+	},
+	{
+		Artist: 'X-Ecutioners',
+		Album: 'Built From Scratch'
+	},
+	{
+		Artist: 'Xzibit',
+		Album: 'Restless'
+	},
+	{
+		Artist: 'Xzibit',
+		Album: 'Man Vs. Machine'
+	},
+	{
+		Artist: 'Zeke',
+		Album: 'Kicked In The Teeth'
+	},
+	{
+		Artist: 'Zeke',
+		Album: 'Death Alley'
+	},
+	{
+		Artist: 'Zwan',
+		Album: 'Mary Star Of The Sea'
+	}
+];

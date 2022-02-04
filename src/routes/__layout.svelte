@@ -1,6 +1,7 @@
 <script>
 	import '../styles/app.css';
 	import Icon from '@iconify/svelte';
+	import Nav from '../components/nav.svelte';
 </script>
 
 <svelte:head>
@@ -8,10 +9,7 @@
 </svelte:head>
 <body class="flex flex-col min-h-screen">
 	<header>
-		<nav class="w-100 flex justify-between items-center h-14 p-2">
-			<a href="/"><h1 class="text-3xl ml-5">Random Song Game</h1></a>
-			<a class="mr-5" href="/about">About</a>
-		</nav>
+		<Nav />
 	</header>
 	<main class="conatiner p-5 flex-1">
 		<slot />
