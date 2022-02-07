@@ -25,6 +25,8 @@
 		try {
 			const res = await fetch(`${url}/${apikey}/searchalbum.php?s=${artistName}&a=${albumName}`);
 			if (!res.ok) {
+				band = artistName;
+				album = albumName;
 				throw new Error('Response Error!', { cause: res.statusText });
 			}
 			const data = await res.json();
@@ -47,6 +49,8 @@
 			console.log(randomNum);
 			song = songData.track[randomNum].strTrack;
 		} catch (err) {
+			band = artistName;
+			album = albumName;
 			console.log(err);
 		}
 	};
