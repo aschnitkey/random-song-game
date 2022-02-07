@@ -2,6 +2,7 @@
 	import { musicData } from '../../static/musicList';
 	export let band = '';
 	export let album = '';
+	export let albumCover = '';
 	export let song = '';
 	let hasLoadedSong = false;
 
@@ -27,9 +28,11 @@
 				throw new Error('Response Error!', { cause: res.statusText });
 			}
 			const data = await res.json();
-			band = data.album[0].strArtist;
-			album = data.album[0].strAlbum;
-			albumId = data.album[0].idAlbum;
+			let albumData = data.album[0];
+			band = albumData.strArtist;
+			album = albumData.strAlbum;
+			albumId = albumData.idAlbum;
+			albumCover = albumData.strAlbumThumb;
 			console.log(`albumId: ${albumId}`);
 		} catch (err) {
 			console.log(err);
@@ -56,8 +59,11 @@
 </script>
 
 <div class="container">
-	<h1 class="logo text-3xl font-bold underline uppercase">Today's Random Song</h1>
+	<h1 class="logo text-3xl font-bold underline uppercase mb-5">Today's Random Song</h1>
 	{#if song}
+		{#if albumCover}
+			<img class="max-w-sm object-cover rounded-sm mb-2" src={albumCover} alt={album} />
+		{/if}
 		<p>{band}</p>
 		<p>{album}</p>
 		<p>{song}</p>
