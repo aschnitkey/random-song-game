@@ -1337,10 +1337,6 @@ export const musicData = [
 	},
 	{
 		Artist: 'Pete Townshend',
-		Album: 'Live: A Benefit For The Marysville Academy'
-	},
-	{
-		Artist: 'Pete Townshend',
 		Album: 'Scooped III'
 	},
 	{

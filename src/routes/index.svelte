@@ -8,8 +8,16 @@
 
 	const getRandomAlbum = () => {
 		const randomNum = Math.floor(Math.random() * musicData.length + 1);
-		const ranArtist = musicData[randomNum].Artist.toLowerCase().replaceAll(' ', '_');
-		const ranAlbum = musicData[randomNum].Album.toLowerCase().replaceAll(' ', '_');
+		const ranArtist = musicData[randomNum].Artist.toLowerCase()
+			.replaceAll(' ', '_')
+			.replaceAll("'", '%27')
+			.replaceAll('&', '%26')
+			.replaceAll(',', '%2C');
+		const ranAlbum = musicData[randomNum].Album.toLowerCase()
+			.replaceAll(' ', '_')
+			.replaceAll("'", '%27')
+			.replaceAll('&', '%26')
+			.replaceAll(',', '%2C');
 		console.log(ranAlbum, ranArtist);
 		return {
 			artist: ranArtist,
@@ -21,13 +29,17 @@
 		let albumId;
 		const url = import.meta.env.VITE_AUDIODB_URL;
 		const apikey = import.meta.env.VITE_AUDIODB_API_KEY;
+
 		console.log(`URL: ${url}/${apikey}/searchalbum.php?s=${artistName}&a=${albumName}`);
+
 		try {
 			const res = await fetch(`${url}/${apikey}/searchalbum.php?s=${artistName}&a=${albumName}`);
 			if (!res.ok) {
 				band = artistName;
 				album = albumName;
-				throw new Error('Response Error!', { cause: res.statusText });
+				throw new Error(`Response Error! Issue finding ${band} - ${album}`, {
+					cause: res.statusText
+				});
 			}
 			const data = await res.json();
 			let albumData = data.album[0];
@@ -37,12 +49,14 @@
 			albumCover = albumData.strAlbumThumb;
 			console.log(`albumId: ${albumId}`);
 		} catch (err) {
-			console.log(err);
+			alert(err);
 		}
 		try {
 			const songRes = await fetch(`${url}/${apikey}/track.php?m=${albumId}`);
 			if (!songRes.ok) {
-				throw new Error('Response Error!', { cause: songRes.statusText });
+				throw new Error(`Response Error! Issue finding ${band} - ${album}`, {
+					cause: songRes.statusText
+				});
 			}
 			const songData = await songRes.json();
 			const randomNum = Math.floor(Math.random() * songData.track.length + 1);
@@ -51,14 +65,14 @@
 		} catch (err) {
 			band = artistName;
 			album = albumName;
-			console.log(err);
+			alert(err);
 		}
 	};
 
 	const handleClick = () => {
-		hasLoadedSong = true;
 		const { artist, album } = getRandomAlbum();
 		updateSong(artist, album);
+		hasLoadedSong = true;
 	};
 </script>
 
