@@ -1,5 +1,7 @@
 <script>
+	import SongContainer from '../components/SongContainer.svelte';
 	import { musicData } from '../../static/musicList';
+	import Button from '../components/Button.svelte';
 	export let band = '';
 	export let album = '';
 	export let albumCover = '';
@@ -69,23 +71,13 @@
 	const handleClick = () => {
 		const { artist, album } = getRandomAlbum();
 		updateSong(artist, album);
-		hasLoadedSong = true;
+		setTimeout(() => {
+			hasLoadedSong = true;
+		}, 1000);
 	};
 </script>
 
 <div class="container">
-	<h1 class="logo text-3xl font-bold underline uppercase mb-5">Today's Random Song</h1>
-	{#if song}
-		{#if albumCover}
-			<img class="max-w-sm object-cover rounded-sm mb-2" src={albumCover} alt={album} />
-		{/if}
-		<p>{band}</p>
-		<p>{album}</p>
-		<p>{song}</p>
-	{/if}
-	{#if !song && hasLoadedSong}
-		<p>There was a problem loading your track. Please try again!</p>
-		<p>Error Resided with: {band} - {album}</p>
-	{/if}
-	<button on:click={handleClick} class="px-5 py-3 my-5 bg-gray-900 color-white">Get Song</button>
+	<SongContainer {band} {album} {albumCover} {song} {hasLoadedSong} />
+	<Button handler={handleClick}>Get Song</Button>
 </div>
