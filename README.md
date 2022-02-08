@@ -1,20 +1,15 @@
-# create-svelte
+# Random Song Game
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Random Song Game app created to practice developing with Svelte and Tailwind, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+[![Random Song Game Preview](https://www.randomsonggame.com/screenshot.png)](https://www.randomsonggame.com)
 
-If you're seeing this, you've probably already done this step. Congrats!
+The Random Song Game was created by Jake Blank and Andrew Schnitkey in 2021. The idea is to each randomly select a song from our archives of old mp3s, then listen to each song and discuss. This app was developed by Andrew Schnitkey for two purposes. One, to practice developing an app using SvelteKit and Tailwind CSS. And Two, to make it easier to randomly select a song every day.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+***
 
-> Note: the `@next` is temporary
+# SvelteKit README details
 
 ## Developing
 
