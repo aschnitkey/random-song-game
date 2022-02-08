@@ -2020,10 +2020,6 @@ export const musicData = [
 		Album: 'The Used'
 	},
 	{
-		Artist: 'The Used',
-		Album: 'Maybe Memories'
-	},
-	{
 		Artist: 'The Velvet Underground',
 		Album: 'Nico'
 	},
