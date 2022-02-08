@@ -30,8 +30,6 @@
 		const url = import.meta.env.VITE_AUDIODB_URL;
 		const apikey = import.meta.env.VITE_AUDIODB_API_KEY;
 
-		console.log(`URL: ${url}/${apikey}/searchalbum.php?s=${artistName}&a=${albumName}`);
-
 		try {
 			const res = await fetch(`${url}/${apikey}/searchalbum.php?s=${artistName}&a=${albumName}`);
 			if (!res.ok) {
@@ -60,7 +58,6 @@
 			}
 			const songData = await songRes.json();
 			const randomNum = Math.floor(Math.random() * songData.track.length + 1);
-			console.log(randomNum);
 			song = songData.track[randomNum].strTrack;
 		} catch (err) {
 			band = artistName;
