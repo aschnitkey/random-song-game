@@ -13,7 +13,7 @@
 	<header>
 		<Nav />
 	</header>
-	<main class="conatiner p-5 flex-1 mx-auto">
+	<main class="conatiner p-5 flex-1 mx-auto max-w-screen">
 		<slot />
 	</main>
 	<footer class="h-28 bg-gray-800 py-5 px-10 flex items-center justify-end">

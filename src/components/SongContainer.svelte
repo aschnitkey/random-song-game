@@ -7,10 +7,12 @@
 </script>
 
 <div class="container flex flex-col items-center bg-[rgba(0,0,0,.5)] px-10 py-5 min-w-full mt-10">
-	<h1 class="logo text-5xl font-bold underline uppercase mb-5">Today's Random Song</h1>
+	<h1 class="logo lg:text-5xl md:text-4xl text-3xl font-bold underline uppercase mb-5">
+		Today's Random Song
+	</h1>
 	{#if song}
 		{#if albumCover}
-			<img class="max-w-sm object-cover rounded-sm mb-8" src={albumCover} alt={album} />
+			<img class="w-full max-w-sm object-cover rounded-sm mb-8" src={albumCover} alt={album} />
 		{/if}
 		<h2 class="text-4xl mb-2">{band}</h2>
 		<p class="text-xl italic">"{song}"</p>
