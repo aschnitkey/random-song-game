@@ -945,19 +945,19 @@ export const musicData = [
 	},
 	{
 		Artist: 'Led Zeppelin',
-		Album: 'I'
+		Album: 'Led Zeppelin'
 	},
 	{
 		Artist: 'Led Zeppelin',
-		Album: 'II'
+		Album: 'Led Zeppelin II'
 	},
 	{
 		Artist: 'Led Zeppelin',
-		Album: 'III'
+		Album: 'Led Zeppelin III'
 	},
 	{
 		Artist: 'Led Zeppelin',
-		Album: 'IV'
+		Album: 'Led Zeppelin IV'
 	},
 	{
 		Artist: 'Led Zeppelin',
