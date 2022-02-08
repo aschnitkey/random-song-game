@@ -49,7 +49,7 @@
 			albumCover = albumData.strAlbumThumb;
 			console.log(`albumId: ${albumId}`);
 		} catch (err) {
-			alert(err);
+			console.log(err);
 		}
 		try {
 			const songRes = await fetch(`${url}/${apikey}/track.php?m=${albumId}`);
@@ -64,7 +64,7 @@
 		} catch (err) {
 			band = artistName;
 			album = albumName;
-			alert(err);
+			console.log(err);
 		}
 	};
 
