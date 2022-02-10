@@ -8,7 +8,23 @@ The Random Song Game was created by Jake Blank and Andrew Schnitkey in 2021. The
 
 
 ***
+ 
+ 
+ 
+ 
+# Outstanding Tasks
 
+- [ ] Fix Issue in Cases When a Second Song is Fetched
+- [ ] Maintain state when changing pages
+- [ ] Improve error handling
+- [ ] Optionally allow source data to be modified so errors can be fixed through the front end
+ 
+ 
+***
+ 
+ 
+ 
+ 
 # SvelteKit README details
 
 ## Developing
