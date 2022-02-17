@@ -1141,7 +1141,7 @@ export const musicData = [
 	},
 	{
 		Artist: 'MxPx',
-		Album: 'Before Everything And After'
+		Album: 'Before Everything & After'
 	},
 	{
 		Artist: 'Nas',

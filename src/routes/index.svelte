@@ -34,6 +34,7 @@
 
 		try {
 			const res = await fetch(`${url}/${apikey}/searchalbum.php?s=${artistName}&a=${albumName}`);
+			console.log(`searchalbum.php?s=${artistName}&a=${albumName}`);
 			if (!res.ok) {
 				band = artistName;
 				album = albumName;
@@ -53,6 +54,7 @@
 		}
 		try {
 			const songRes = await fetch(`${url}/${apikey}/track.php?m=${albumId}`);
+			console.log(`track.php?m=${albumId}`);
 			if (!songRes.ok) {
 				throw new Error(`Response Error! Issue finding ${band} - ${album}`, {
 					cause: songRes.statusText
