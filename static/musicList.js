@@ -1280,11 +1280,11 @@ export const musicData = [
 		Album: 'Speakerboxxx/The Love Below'
 	},
 	{
-		Artist: 'Ozzy',
+		Artist: 'Ozzy Osbourne',
 		Album: 'Ozzmosis'
 	},
 	{
-		Artist: 'Ozzy',
+		Artist: 'Ozzy Osbourne',
 		Album: 'Live At Budokan'
 	},
 	{
