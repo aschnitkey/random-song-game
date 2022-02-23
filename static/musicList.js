@@ -2120,14 +2120,6 @@ export const musicData = [
 		Album: 'Lateralus'
 	},
 	{
-		Artist: 'Tragedy Ann',
-		Album: 'Lesser'
-	},
-	{
-		Artist: 'Tragedy Ann',
-		Album: 'One Nation Under God...'
-	},
-	{
 		Artist: 'Transplants',
 		Album: 'Transplants'
 	},
