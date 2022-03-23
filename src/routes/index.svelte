@@ -13,11 +13,15 @@
 		const ranArtist = musicData[randomNum].Artist.toLowerCase()
 			.replaceAll(' ', '_')
 			.replaceAll("'", '%27')
+			.replaceAll('’', '%27')
+			.replaceAll('‘', '%27')
 			.replaceAll('&', '%26')
 			.replaceAll(',', '%2C');
 		const ranAlbum = musicData[randomNum].Album.toLowerCase()
 			.replaceAll(' ', '_')
-			.replaceAll("'", '%27')
+			.replaceAll(`'`, '%27')
+			.replaceAll('’', '%27')
+			.replaceAll('‘', '%27')
 			.replaceAll('&', '%26')
 			.replaceAll(',', '%2C');
 		console.log(ranAlbum, ranArtist);
