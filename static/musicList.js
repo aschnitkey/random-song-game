@@ -1357,7 +1357,7 @@ export const musicData = [
 	},
 	{
 		Artist: 'Pink Floyd',
-		Album: 'Dark Side Of The Moon'
+		Album: 'The Dark Side Of The Moon'
 	},
 	{
 		Artist: 'Pink Floyd',
