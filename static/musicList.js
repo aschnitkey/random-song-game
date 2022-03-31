@@ -401,7 +401,7 @@ export const musicData = [
 	},
 	{
 		Artist: 'Counting Crows',
-		Album: 'Across A Wire-Live In New York'
+		Album: 'Across A Wire: Live In New York City'
 	},
 	{
 		Artist: 'Counting Crows',

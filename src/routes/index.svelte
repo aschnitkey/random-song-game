@@ -66,6 +66,7 @@
 			}
 			const songData = await songRes.json();
 			const randomNum = Math.floor(Math.random() * songData.track.length + 1);
+			console.log(`Track number ${randomNum}`);
 			song = songData.track[randomNum].strTrack;
 		} catch (err) {
 			band = artistName;
