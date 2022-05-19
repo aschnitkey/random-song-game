@@ -128,11 +128,11 @@ export const musicData = [
 		Album: 'All Star United'
 	},
 	{
-		Artist: 'And You Will Know Us By The Trail Of Dead',
+		Artist: '...And You Will Know Us By The Trail Of Dead',
 		Album: 'Source Tags And Codes'
 	},
 	{
-		Artist: 'And You Will Know Us By The Trail Of Dead',
+		Artist: '...And You Will Know Us By The Trail Of Dead',
 		Album: 'The Secret Of Elanas Tomb'
 	},
 	{
@@ -1744,10 +1744,6 @@ export const musicData = [
 		Album: 'No. 4'
 	},
 	{
-		Artist: 'S.T.U.N.',
-		Album: 'Evolution Of Energy'
-	},
-	{
 		Artist: 'Sublime',
 		Album: 'Robbin The Hood'
 	},
@@ -1928,23 +1924,23 @@ export const musicData = [
 		Album: 'Splinter'
 	},
 	{
-		Artist: 'The Orange County Supertones',
+		Artist: 'The O.C. Supertones',
 		Album: 'Adventures Of The O.C. Supertones'
 	},
 	{
-		Artist: 'The Orange County Supertones',
+		Artist: 'The O.C. Supertones',
 		Album: 'Supertones Strike Back'
 	},
 	{
-		Artist: 'The Orange County Supertones',
+		Artist: 'The O.C. Supertones',
 		Album: 'Chase The Sun'
 	},
 	{
-		Artist: 'The Orange County Supertones',
+		Artist: 'The O.C. Supertones',
 		Album: 'Loud And Clear'
 	},
 	{
-		Artist: 'The Orange County Supertones',
+		Artist: 'The O.C. Supertones',
 		Album: 'Hi-Fi Revival'
 	},
 	{
