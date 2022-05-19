@@ -681,7 +681,7 @@ export const musicData = [
 	},
 	{
 		Artist: 'Glassjaw',
-		Album: 'Everything You Wanted To Know'
+		Album: 'Everything You Wanted To Know About Silence'
 	},
 	{
 		Artist: 'Glassjaw',
@@ -1890,10 +1890,6 @@ export const musicData = [
 	{
 		Artist: 'The Hives',
 		Album: 'Your New Favorite Band'
-	},
-	{
-		Artist: 'The Insyderz',
-		Album: 'Fight Of My Life'
 	},
 	{
 		Artist: 'The Living End',
